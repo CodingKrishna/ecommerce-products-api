@@ -17,7 +17,7 @@ spring:
    user: "root"
    password: "root"
    driver-class-name: com.mysql.cj.jdbc.Driver
-   enabled: false
+   enabled: true
    
  mvc:
     pathmatch:
@@ -58,3 +58,6 @@ server:
     threads:
       worker: 64
       io: 4
+
+
+
